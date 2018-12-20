@@ -3,9 +3,9 @@ from tensorflow.examples.tutorials.mnist import input_data as dataset
 
 mnist_data = dataset.read_data_sets("MNIST_Dataset/",one_hot=True)
 input_neuron_layer_count = 784
-hidden_neuron_count_1 = 512 
-hidden_neuron_count_2 = 512 
-hidden_neuron_count_3 = 512 
+hidden_neuron_count_1 = 1024
+hidden_neuron_count_2 = 1024
+hidden_neuron_count_3 = 1024
 output_neuron_layer_count = 10
 learning_rate = 1e-4
 iteration_count = 1000
